@@ -1,0 +1,136 @@
+/* #region Common */
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/* #endregion */
+/* #region HEADER */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(./images/woman-with-headpfones.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+}
+
+.header__bottom {
+}
+/* #endregion */
+/* #region Burger-menu */
+.burger-menu {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background: #e8eff9;
+}
+
+.burger-menu__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.burger-menu__items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.burger-menu__link {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.burger-menu__link:hover {
+  text-decoration: underline;
+}
+/* #endregion */
+/* #region Recommended*/
+.recommended {
+}
+
+.recommended__title {
+}
+
+.recommended__container {
+}
+
+.recommended__article {
+}
+
+.recommended__article-link {
+}
+
+.recommended__article-img {
+}
+
+.recommended__article-title {
+}
+
+.recommended__article-category {
+}
+
+.recommended__article-price {
+}
+/* #endregion */
+/* #region Products*/
+.products {
+}
+
+.products__article {
+}
+
+.products__article-link {
+}
+
+.products__article-img {
+}
+
+.products__article-title {
+}
+/* #endregion */
+/* #region Advantages */
+.advantages {
+}
+
+.advantages__title {
+}
+
+.advantages__container {
+}
+
+.advantages__list {
+}
+
+.advantages__item {
+}
+
+.advantages-text {
+}
+/* #endregion */
