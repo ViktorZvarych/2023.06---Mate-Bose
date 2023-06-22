@@ -20,32 +20,36 @@
             <a class="logo" href="./index.html">
                 <img src="./images/Bose-Logo.png" alt="Bose Logo">
             </a>
-            <img src="./images/icons/Icon-Burger-menu.png" alt="Icon open burger menu">
+            <a href="#burger-menu">
+                <img src="./images/icons/Icon-Burger-menu.png" alt="Icon open burger menu">
+            </a>
         </div>
 
         <div class="header__bottom">
             <a href="/index.html">
                 <img src="./images/icons/Icon-Sound-waves.png" alt="Icon sound waves">
             </a>
-            <h1>
+            <h1 class="header__title">
                 The world shades.
                 <br>
                 Your music shines.
             </h1>
         </div>
     </header>
-    <div class="burger-menu">
+    <div class="burger-menu" id="burger-menu">
         <div class="burger-menu__top">
             <a class="logo" href="./index.html">
                 <img src="./images/Bose-Logo.png" alt="Bose Logo">
             </a>
-            <img src="./images/icons/Icon-Close-Burger-menu.png" alt="Icon close burger menu">
+            <a href="#">
+                <img src="./images/icons/Icon-Close-Burger-menu.png" alt="Icon close burger menu">
+            </a>
         </div>
         <nav class="nav">
             <ul class="burger-menu__items">
-                <li><a href="#home" class="burger-menu__link">Home</a></li>
+                <li><a href="#" class="burger-menu__link">Home</a></li>
                 <li><a href="#recommended" class="burger-menu__link">Recommended</a></li>
-                <li><a href="#categories" class="burger-menu__link">Categories</a></li>
+                <li><a href="#products" class="burger-menu__link">Categories</a></li>
                 <li><a href="#advantages" class="burger-menu__link">How to buy</a></li>
             </ul>
         </nav>
@@ -53,87 +57,87 @@
     </div>
     <!-- #endregion -->
     <!-- #region Recommended -->
-    <main>
+    <main class="main">
         <section class="recommended" id="recommended">
             <h2 class="recommended__title">Recommended</h2>
             <div class="recommended__container">
                 <article class="recommended__article">
-                    <a class="recommended__article-link" href="#recommended">
+                    <a class="recommended__article-frame" href="#recommended">
                         <img class="recommended__article-img" src="./images/products/Bose-portable-Smart-speaker.png"
                             alt="Bose portable Smart speaker">
                     </a>
-                    <a class="recommended__article-link" href="#recommended">
-                        <h3 class="recommended__article-title">Bose portable Smart speaker</h3>
-                    </a>
-                    <p class="recommended__article-category">Smart home</p>
-                    <p class="recommended__article-price">$ 399.00</p>
+                    <div class="recommended__article-text">
+                        <a class="recommended__article-link" href="#recommended">
+                            <h3 class="recommended__article-title">Bose portable Smart speaker</h3>
+                        </a>
+                        <p class="recommended__article-category">Smart home</p>
+                        <p class="recommended__article-price">$ 399.00</p>
+                    </div>
                 </article>
                 <article class="recommended__article">
-                    <a class="recommended__article-link" href="#recommended">
+                    <a class="recommended__article-frame" href="#recommended">
                         <img class="recommended__article-img"
                             src="./images/products/SoundLink-Flex-Bluetooth-speaker.png"
                             alt="SoundLink Flex Bluetooth speaker">
                     </a>
-                    <a class="recommended__article-img" href="#recommended">
-                        <h3 class="recommended__article-title">SoundLink Flex Bluetooth speaker</h3>
-                    </a>
-                    <p class="recommended__article-category">Portable bluetooth</p>
-                    <p class="recommended__article-price">$ 149.00</p>
+                    <div class="recommended__article-text">
+                        <a class="recommended__article-link" href="#recommended">
+                            <h3 class="recommended__article-title">SoundLink Flex Bluetooth speaker</h3>
+                        </a>
+                        <p class="recommended__article-category">Portable bluetooth</p>
+                        <p class="recommended__article-price">$ 149.00</p>
+                    </div>
                 </article>
                 <article class="recommended__article">
-                    <a class="recommended__article-link" href="#recommended">
+                    <a class="recommended__article-frame" href="#recommended">
                         <img class="recommended__article-img"
                             src="./images/products/SoundLink-Color-Bluetooth-speaker-II.png"
                             alt="SoundLink Color Bluetooth speaker II">
                     </a>
-                    <a class="recommended__article-img" href="#recommended">
-                        <h3 class="recommended__article-title">SoundLink Color Bluetooth speaker II</h3>
-                    </a>
-                    <p class="recommended__article-category">Portable bluetooth</p>
-                    <p class="recommended__article-price">$ 129.00</p>
+                    <div class="recommended__article-text">
+                        <a class="recommended__article-link" href="#recommended">
+                            <h3 class="recommended__article-title">SoundLink Color Bluetooth speaker II</h3>
+                        </a>
+                        <p class="recommended__article-category">Portable bluetooth</p>
+                        <p class="recommended__article-price">$ 129.00</p>
+                    </div>
                 </article>
             </div>
         </section>
         <!-- #endregion -->
         <!-- #region Products -->
         <section class="products" id="products">
-            <h2>Browse Bose products by category</h2>
+            <h2 class="products__title">Browse Bose products by category</h2>
             <article class="products__article">
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Headphones-&-earbuds-1.jpg"
+                <div class="products__article-images">
+                    <img class="img-wide" src="./images/products/Headphones-earbuds-wide.jpg"
                         alt="Headphones & earbuds">
-                </a>
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Headphones-&-earbuds-2.jpg"
+                    <img class="img-square" src="./images/products/Headphones-earbuds-square.jpg"
                         alt="Headphones & earbuds">
-                </a>
-                <a class="products__article-img" href="#products">
+                </div>
+                <a class="link-title" href="#products">
                     <h3 class="products__article-title">Headphones & earbuds</h3>
                 </a>
             </article>
             <article class="products__article">
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Speakers-1.jpg"
+                <div class="products__article-images">
+                    <img class="img-wide" src="./images/products/Speakers-wide.jpg"
                         alt="SoundLink Color Bluetooth speaker II">
-                </a>
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Speakers-2.jpg"
+                    <img class="img-square" src="./images/products/Speakers-square.jpg"
                         alt="SoundLink Color Bluetooth speaker II">
-                </a>
-                <a class="products__article-img" href="#products">
+                </div>
+                <a class="link-title" href="#products">
                     <h3 class="products__article-title">Speakers</h3>
                 </a>
             </article>
             <article class="products__article">
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Audio-sunglasses-1.jpg"
+                <div class="products__article-images">
+                    <img class="img-square" src="./images/products/Audio-sunglasses-square.jpg"
                         alt="SoundLink Color Bluetooth speaker II">
-                </a>
-                <a class="products__article-link" href="#products">
-                    <img class="products__article-img" src="./images/products/Audio-sunglasses-2.jpg"
+                    <img class="img-wide" src="./images/products/Audio-sunglasses-wide.jpg"
                         alt="SoundLink Color Bluetooth speaker II">
-                </a>
-                <a class="products__article-img" href="#products">
+                </div>
+                <a class="products__link-title" href="#products">
                     <h3 class="products__article-title">Audio sunglasses</h3>
                 </a>
             </article>
@@ -162,7 +166,7 @@
     </main>
     <!-- #endregion -->
     <!-- #region FOOTER -->
-    <footer>
+    <footer class="footer">
 
     </footer>
 </body>
