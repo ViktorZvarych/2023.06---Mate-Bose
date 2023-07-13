@@ -111,7 +111,6 @@ li {
 /* #endregion */
 /* #region Common for body sections */
 .main {
-  max-width: 1024px;
   padding: 0px 120px;
   padding-top: 120px;
   background-color: #fff;
